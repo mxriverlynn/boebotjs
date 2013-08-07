@@ -8,6 +8,7 @@ var board = new j5.Board({
 board.on("ready", function(){
 
   var boebot = new BoEBot(12, 11);
+  boebot.stop();
 
   board.repl.inject({
     bot: boebot
