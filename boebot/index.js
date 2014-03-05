@@ -17,8 +17,8 @@ function BoEBot(pinLeft, pinRight){
 }
 
 BoEBot.prototype.setSpeed = function(leftSpeed, rightSpeed){
-  this.leftServo.move(leftSpeed);
-  this.rightServo.move(rightSpeed);
+  this.leftServo.to(leftSpeed);
+  this.rightServo.to(rightSpeed);
 }
 
 BoEBot.prototype.fwd = function(speed){
