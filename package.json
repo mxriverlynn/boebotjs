@@ -1,0 +1,8 @@
+{
+  "name": "boebot",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "johnny-five": "~0.7.19"
+  }
+}

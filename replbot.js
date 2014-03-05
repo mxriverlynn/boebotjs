@@ -2,7 +2,7 @@ var j5 = require("johnny-five");
 var BoEBot = require("./boebot");
 
 var board = new j5.Board({
-  port: "/dev/tty.BBQDuino-DevB"                       
+  port: "/dev/tty.linvor-DevB"                       
 });
 
 board.on("ready", function(){
